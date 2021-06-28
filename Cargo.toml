@@ -1,0 +1,12 @@
+[package]
+name = "maze_rs"
+version = "1.0.0"
+authors = ["Timmy Jose <zoltan.jose@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+rand = "*"
+
+
+
