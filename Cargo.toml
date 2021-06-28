@@ -1,12 +1,16 @@
 [package]
 name = "maze_rs"
+description = "a simple maze game in rust"
 version = "1.0.0"
 authors = ["Timmy Jose <zoltan.jose@gmail.com>"]
+homepage = "https://github.com/timmyjose/maze_rs"
+repository = "https://github.com/timmyjose/maze_rs"
+license-file = "LICENSE.md"
+readme = "README"
+categories = ["games"]
+keywords = ["gamedev", "graphics", "graphs", "mazes"]
 edition = "2018"
 
 [dependencies]
 
-rand = "*"
-
-
-
+rand = "0.8.4"

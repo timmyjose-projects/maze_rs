@@ -24,12 +24,12 @@ pub fn get_maze_dimensions(args: &Vec<String>) -> Result<(usize, usize)> {
     Err(MazeError::of(ErrorKind::InvalidDimensionsNotNumber))
 }
 
-/// Return a random number in the cloed range [l, h]
+/// Return a random number in the closed range [l, h]
 /// This uses the `rand` crate to generate PRNs.
 pub fn get_random_number_in_range(l: isize, h: isize) -> isize {
     let mut rng = thread_rng();
 
-    rng.gen_range(l, h + 1)
+    rng.gen_range(l..h + 1)
 }
 
 /// find the relative direction of the source cell w.r.t the neighbouring
