@@ -13,7 +13,7 @@ In addition, solve the maze for the given scenarios:
 
 The project will generate randomly shaped mazes for every run of the program (within reason).
 
-For the design of the project, please refer to the [Design doc](https://gitlab.com/timmyjose/maze_project/blob/master/doc/Design.md).
+For the design of the project, please refer to the [Design doc](https://github.com/timmyjose/maze_rs/doc/Design.md).
 
 
 
@@ -227,7 +227,7 @@ Enter choice (1 - solve, 2 - longest path, 3 - quit)...
     basic Windows command lines.
 
   * Most complicated Paths should be relatively straightforward to implement, and the planned approach is mentioned in the
-    supporting [Design doc](https://gitlab.com/timmyjose/maze_project/blob/master/doc/Design.md).
+    supporting [Design doc](https://github.com/timmyjose/maze_rs/doc/Design.md).
 
   * All tweakable configurations (animation speeds, font colours, cell sprites et al) should ideally be placed in an external
     configuration file.  
@@ -236,7 +236,7 @@ Enter choice (1 - solve, 2 - longest path, 3 - quit)...
 
 ## Licence
 
-Please refer to the licence file at [LICENCE](https://gitlab.com/timmyjose/maze-project/blob/master/LICENSE.md)
+Please refer to the licence file at [LICENCE](https://github.com/timmyjose/maze_rs/LICENSE.md)
 
 
 
